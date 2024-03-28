@@ -1,0 +1,35 @@
+.setminh{
+    min-height: 90vh;
+}
+
+@media (max-width:600px){
+    .custom-class{
+        display: none;
+    }
+    body{
+        background-color: rgb(171, 218, 218);
+    }
+    .custom-width{
+        width: 80%;
+    }
+}
+@media (min-width:600px){
+    .custom-class{
+        display: flex;
+    }
+    .custom-width{
+        width: 600px;
+    }
+}
+
+.resultsCont{
+    font-size: 15px;
+}
+
+.resultsCont div::first-letter{
+    text-transform: uppercase;
+}
+
+#results{
+    display: none;
+}
